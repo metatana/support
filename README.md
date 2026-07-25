@@ -10,6 +10,9 @@ problems.
 
 **[Open a Discussion →](https://github.com/metatana/support/discussions)**
 
+Prefer email, or need to share something private? Write to **support@watari.dev**.
+Discussions are usually faster, and the answer helps the next person too.
+
 Before posting, the docs answer most questions:
 
 - [Installation](https://metatana.com/docs/getting-started/installation)
@@ -35,7 +38,7 @@ Redact anything private before pasting. Logs can contain file paths.
 Please do **not** open a public Discussion for a security vulnerability.
 
 Use [private vulnerability reporting](https://github.com/metatana/support/security/advisories/new)
-instead. Only MetaTana maintainers can see it.
+instead — only MetaTana maintainers can see it. Or email **support@watari.dev**.
 
 ## Links
 
