@@ -1,7 +1,8 @@
 # MetaTana Support
 
-This is the support home for **MetaTana** — an AI-powered local media manager. Drop a folder, and
-MetaTana identifies your content, fetches artwork and metadata, and organizes your library.
+This is the support home for **MetaTana**. It turns the movie, TV, and anime folders you already own
+into a clean, complete media library. Add a folder and MetaTana identifies each title, fills in
+metadata and artwork, and shows you the result before anything moves.
 
 This repository holds no code. It exists so there is one public place to ask questions and report
 problems.
@@ -10,8 +11,7 @@ problems.
 
 **[Open a Discussion →](https://github.com/metatana/support/discussions)**
 
-Prefer email, or need to share something private? Write to **support@watari.dev**.
-Discussions are usually faster, and the answer helps the next person too.
+Discussions keep answers searchable and help the next person too.
 
 Before posting, the docs answer most questions:
 
@@ -38,7 +38,7 @@ Redact anything private before pasting. Logs can contain file paths.
 Please do **not** open a public Discussion for a security vulnerability.
 
 Use [private vulnerability reporting](https://github.com/metatana/support/security/advisories/new)
-instead — only MetaTana maintainers can see it. Or email **support@watari.dev**.
+instead — only MetaTana maintainers can see it.
 
 ## Links
 
