@@ -21,17 +21,11 @@ Before posting, the docs answer most questions:
 - [Desktop (macOS, Windows, Linux)](https://metatana.com/docs/getting-started/installation/desktop)
 - [All documentation](https://metatana.com/docs)
 
-## Reporting a problem
+## Reporting a bug
 
-A good report gets a fast answer. Please include:
+Use the **[private MetaTana bug form](https://metatana.com/support#report-a-bug)** for the normal path. It gives you a MetaTana ticket number and email updates. Reports stay private while they are checked.
 
-- **Version** — shown in Settings, or the image tag for Docker
-- **How you installed** — desktop app, Docker, Unraid, TrueNAS
-- **Platform** — macOS, Windows, Linux, or your NAS
-- **What you expected**, and **what happened instead**
-- **Logs**, if you have them
-
-Redact anything private before pasting. Logs can contain file paths.
+Technical users can also open a **[public GitHub bug report](https://github.com/metatana/support/issues/new/choose)** when the full report is safe to share. GitHub issues are public. Do not include email addresses, file paths, library names, logs, account details, or anything else private.
 
 ## Security issues
 

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private bug report
+    url: https://metatana.com/support#report-a-bug
+    about: Get a private MetaTana ticket and email updates.
+  - name: Questions and help
+    url: https://github.com/metatana/support/discussions
+    about: Ask the community and search existing answers.
+  - name: Security vulnerability
+    url: https://github.com/metatana/support/security/advisories/new
+    about: Tell the maintainers privately about a security problem.
