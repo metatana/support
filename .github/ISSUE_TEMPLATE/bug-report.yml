@@ -1,0 +1,89 @@
+name: Public bug report
+description: Report a technical MetaTana problem that is safe to discuss in public.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve MetaTana.
+
+        This report will be public. Do not include email addresses, file paths, library names, logs, account details, or anything else private.
+
+        For a private report and ticket updates, use [MetaTana's private bug form](https://metatana.com/support#report-a-bug). For a security problem, use [private vulnerability reporting](https://github.com/metatana/support/security/advisories/new).
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before you continue
+      options:
+        - label: I understand this report will be public.
+          required: true
+        - label: I removed private data, including file paths and account details.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: MetaTana version
+      description: Find this in Settings, or provide the Docker image tag.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install
+    attributes:
+      label: Install type
+      options:
+        - Desktop app
+        - Docker
+        - Unraid
+        - TrueNAS
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: e.g. macOS 15, Windows 11, Ubuntu 24.04, or NAS model
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem without including private data.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest set of steps that makes the problem happen.
+      placeholder: |
+        1. Open ...
+        2. Choose ...
+        3. See ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional. Add a redacted screenshot if it helps. Do not paste logs or file paths.
