@@ -18,6 +18,7 @@ Before posting, the docs answer most questions:
 - [Installation](https://metatana.com/docs/getting-started/installation)
 - [Docker](https://metatana.com/docs/getting-started/installation/docker)
 - [Unraid](https://metatana.com/install/unraid)
+- [TrueNAS](https://metatana.com/docs/getting-started/installation/truenas)
 - [Desktop (macOS, Windows, Linux)](https://metatana.com/docs/getting-started/installation/desktop)
 - [All documentation](https://metatana.com/docs)
 
